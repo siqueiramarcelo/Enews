@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gray">#6f8a91ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="setting_subtitle">#333</color>
+    <color name="white">#FFF</color>
+    <color name="graycolor">#ccc</color>
+    <color name="primary_text">#212121</color>
+
+
+    <color name="Red">#F44336</color>
+    <color name="Pink">#E91E63</color>
+    <color name="Pruple">#9C27B0</color>
+    <color name="Green">#4CAF50</color>
+    <color name="Yellow">#FFC107</color>
+    <color name="Brown">#795548</color>
+    <color name="Indigo">#3F51B5</color>
+    <color name="Teal">#009688</color>
+    <color name="Cyan">#00BCD4</color>
+    <color name="Black">#000000</color>
+
+
+    <color name="contact_0">#3F51B5</color>
+    <color name="contact_0_dark">#303F9F</color>
+    <color name="contact_1">#2196F3</color>
+    <color name="contact_1_dark">#1976D2</color>
+    <color name="contact_3">#607D8B</color>
+    <color name="contact_3_dark">#757575</color>
+    <color name="contact_4">#009688</color>
+    <color name="contact_4_dark">#00796B</color>
+    <color name="contact_2">#673AB7</color>
+    <color name="contact_2_dark">#512DA8</color>
+    <color name="contact_5">#F44336</color>
+    <color name="contact_5_dark">#D32F2F</color>
+    <color name="contact_6">#FF5722</color>
+    <color name="contact_6_dark">#E64A19</color>
+    <color name="contact_7">#E91E63</color>
+    <color name="contact_7_dark">#C2185B</color>
+    <color name="contact_8">#4CAF50</color>
+    <color name="contact_8_dark">#388E3C</color>
+
+    <color name="facebookColor">#3b5a9a</color>
+    <color name="googleColor">#df4a32</color>
+    <color name="login_color_header">#009688</color>
+</resources>

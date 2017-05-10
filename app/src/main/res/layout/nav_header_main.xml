@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <LinearLayout
+        android:id="@+id/linearLayout_login"
+        android:visibility="gone"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+            app:srcCompat="@drawable/account_circle"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:tint="@color/white"
+            />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="@string/please_signin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:id="@+id/header_sign_in"
+                android:layout_gravity="left"
+                android:background="@drawable/raduis_button"
+                android:text="@string/login_button"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp" />
+            <Button
+                android:layout_marginRight="10dp"
+
+                android:layout_weight="1"
+                android:id="@+id/header_sign_up"
+                android:layout_gravity="left"
+                android:background="@drawable/raduis_button"
+                android:text="@string/registre_button"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout_user">
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                app:srcCompat="@drawable/account_circle"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+
+                android:tint="@color/white"
+                android:id="@+id/imageView3" />
+            <TextView
+                android:layout_gravity="center"
+                android:id="@+id/header_text_view_name"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:text="Hassan Boutannoura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="right"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:id="@+id/header_profile"
+                android:layout_margin="5dp"
+                android:background="@drawable/raduis_button"
+                android:text="Profile"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp" />
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:id="@+id/header_logout"
+                android:layout_margin="5dp"
+                android:background="@drawable/raduis_button"
+                android:text="logout"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

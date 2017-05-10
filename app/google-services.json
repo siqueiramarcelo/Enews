@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "201523930815",
+    "firebase_url": "https://enews-e3742.firebaseio.com",
+    "project_id": "enews-e3742",
+    "storage_bucket": "enews-e3742.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201523930815:android:ff32d19228543789",
+        "android_client_info": {
+          "package_name": "com.ristana.e_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "201523930815-sjfsr4i7o58ikdbeku66hev254usn486.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ristana.e_news",
+            "certificate_hash": "ba8be8ef8eb949eaa5d20a4cae6ddee0f6775a4e"
+          }
+        },
+        {
+          "client_id": "201523930815-gvdq77hof7a7581jhansl1rakfr4a45e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVO8WrjepwridYhg2YvAVE2AL2mCIC2ws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "201523930815-gvdq77hof7a7581jhansl1rakfr4a45e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
